@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+nav {
+    background-color: bisque;
+    height: 80px;
+}
+
+footer {
+    background-color: coral;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.wrapper {
+    background-color: rgb(160,154,144);
+    font-size: 5em;
+    /* lo calculo con la altura  */
+    min-height: calc(100vh - 160px);
+}
